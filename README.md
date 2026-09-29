@@ -45,13 +45,9 @@ juan:
 ## Hacia adonde apunto
 
 <br />
-
 - **Mi enfoque actual:** Estar siempre al día con las últimas tecnologías. Me gusta testear nuevos modelos de IA, armar arquitecturas con agentes y, en general, aprender constantemente.
 - **Mi próxima meta:** Llevar mis habilidades de arquitectura e IA al siguiente nivel, construyendo un sistema que escale y resuelva un problema complejo en producción, con que aun me falta "la idea".
 - **Me gustaría colaborar en:** Algún proyecto grande o de alto impacto. Siento que trabajar en equipo en algo importante te abre la mente, te da nuevas perspectivas y se aprende muchísimo viendo cómo piensan y resuelven problemas los demás.
-
-</details>
-
 <br />
 
 ## Cosas que he construido
