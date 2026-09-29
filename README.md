@@ -8,11 +8,11 @@ Guía de edición, imágenes y animaciones: PERSONALIZAR.md.
   <img src="./assets/studio-banner.png" width="100%" alt="Juan Torres — Desarrollo, datos, seguridad e IA. Ilustración de un estudio frente a la costa de Lima al anochecer." />
 </p>
 
-<h1 align="center">Hola, soy Juan Sebastián 👋</h1>
+<h1 align="center">Hola, soy Juan Sebastián 😀👋</h1>
 
 <p align="center">
   <b>Ingeniería de Sistemas de Información · UPC</b><br />
-  Desde Lima, Perú, entre el código, los datos y las ideas.
+  Lima, Perú.
 </p>
 
 <p align="center">
