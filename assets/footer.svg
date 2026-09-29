@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150" role="img" aria-labelledby="title desc">
-  <title id="title">Gracias por pasar por mi rincón de internet</title>
+  <title id="title">Gracias</title>
   <desc id="desc">Un horizonte nocturno con estrellas y una pequeña órbita violeta animada.</desc>
   <defs><linearGradient id="sky" x2="1" y2="1"><stop stop-color="#0b1020"/><stop offset="1" stop-color="#172449"/></linearGradient><linearGradient id="line"><stop stop-color="#67e8f9"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#fda4af"/></linearGradient></defs>
   <style>.star{animation:twinkle 5s ease-in-out infinite}.b{animation-delay:2s}.orbit{stroke-dasharray:30 900;animation:travel 12s linear infinite}@keyframes twinkle{50%{opacity:.3}}@keyframes travel{to{stroke-dashoffset:-930}}@media(prefers-reduced-motion:reduce){.star,.orbit{animation:none}}</style>
@@ -7,6 +7,6 @@
   <path d="M0 128Q250 68 500 119T1000 100" fill="none" stroke="#37446a"/>
   <path class="orbit" d="M0 128Q250 68 500 119T1000 100" fill="none" stroke="url(#line)" stroke-width="2"/>
   <g fill="#c4b5fd"><circle class="star" cx="59" cy="36" r="2"/><circle class="star b" cx="180" cy="81" r="1.5"/><circle class="star" cx="910" cy="42" r="2"/><circle class="star b" cx="831" cy="93" r="1.5"/><circle cx="720" cy="25" r="1"/></g>
-  <text x="500" y="59" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="22" fill="#e9e5ff">Gracias por pasar por mi rincón de internet.</text>
-  <text x="500" y="87" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#a5b4cf">Hecho con curiosidad. Mejorado con cada proyecto.</text>
+  <text x="500" y="59" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="22" fill="#e9e5ff">Gracias!!!</text>
+  <text x="500" y="87" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#a5b4cf">Por tomarse el tiempo de leer.</text>
 </svg>
