@@ -42,7 +42,6 @@ juan:
     - Seguridad de la información
 ```
 
-<details>
   <summary><b>Hacia dónde apunto</b></summary>
 
 <br />
