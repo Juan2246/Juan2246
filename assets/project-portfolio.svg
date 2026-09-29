@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="280" viewBox="0 0 640 280" role="img" aria-labelledby="title desc">
+  <title id="title">Portafolio · Personal</title>
+  <desc id="desc">Tarjeta del portafolio de Juan Torres. Una ventana abstracta de navegador con una estrella geométrica y un cursor de luz sobre fondo azul noche.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10182b"/><stop offset="1" stop-color="#0b1020"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#a78bfa" stop-opacity=".14"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+    <linearGradient id="star" x2="1" y2="1"><stop stop-color="#c4b5fd"/><stop offset="1" stop-color="#67e8f9"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#a78bfa" stroke-opacity=".06"/></pattern>
+    <style>
+      text{font-family:Inter,'Segoe UI',Arial,sans-serif}.cursor{animation:cursor 5s ease-in-out infinite}.spark{animation:spark 9s ease-in-out infinite}
+      @keyframes cursor{0%,100%{opacity:.2}30%,65%{opacity:1}}@keyframes spark{0%,100%{opacity:.65}50%{opacity:1}}@media(prefers-reduced-motion:reduce){.cursor,.spark{animation:none}}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="638" height="278" rx="22" fill="url(#bg)" stroke="#263049"/>
+  <path d="M373 1H618Q639 1 639 22V258Q639 279 618 279H373Z" fill="url(#grid)"/>
+  <circle cx="520" cy="134" r="119" fill="url(#glow)"/>
+  <path d="M32 36H54" stroke="#a78bfa" stroke-width="3" stroke-linecap="round"/>
+  <text x="67" y="41" font-size="13" font-weight="650" letter-spacing="2" fill="#c4b5fd">04 / PERSONAL</text>
+  <text x="32" y="122" font-size="40" font-weight="700" letter-spacing="-1.4" fill="#f1f5ff">Portafolio</text>
+  <text x="33" y="152" font-size="15" fill="#a8b2c9">Mi espacio en la web.</text>
+  <rect x="32" y="214" width="157" height="34" rx="17" fill="#a78bfa" fill-opacity=".08" stroke="#a78bfa" stroke-opacity=".3"/>
+  <text x="49" y="236" font-size="13" font-weight="600" fill="#ddd6fe">Explorar proyecto</text>
+  <path d="M173 226l5 5-5 5m-7-5h12" fill="none" stroke="#c4b5fd" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="405" y="83" width="185" height="137" rx="11" fill="#111a2b" stroke="#625e85" stroke-opacity=".4"/>
+  <rect x="394" y="72" width="185" height="137" rx="11" fill="#161e32" stroke="#a78bfa" stroke-width="1.3"/>
+  <path d="M394 99h185" stroke="#a78bfa" stroke-opacity=".35"/>
+  <circle cx="409" cy="86" r="3" fill="#fda4af"/><circle cx="421" cy="86" r="3" fill="#a78bfa"/><circle cx="433" cy="86" r="3" fill="#67e8f9"/>
+  <path d="M466 86h72" stroke="#8797b3" stroke-opacity=".4" stroke-width="3" stroke-linecap="round"/>
+  <path d="M415 124h34m-34 13h51" stroke="#a78bfa" stroke-width="4" stroke-linecap="round"/>
+  <path d="M415 154h62m-62 10h46" stroke="#8797b3" stroke-opacity=".65" stroke-width="3" stroke-linecap="round"/>
+  <rect x="415" y="183" width="35" height="9" rx="4.5" fill="#67e8f9" fill-opacity=".5"/>
+  <path class="cursor" d="M460 183v9" stroke="#67e8f9" stroke-width="2" stroke-linecap="round"/>
+  <g class="spark">
+    <circle cx="534" cy="147" r="37" fill="none" stroke="#a78bfa" stroke-opacity=".2"/>
+    <path d="M534 108l10 28 28 11-28 10-10 29-11-29-28-10 28-11Z" fill="url(#star)" fill-opacity=".18" stroke="url(#star)" stroke-width="1.5" stroke-linejoin="round"/>
+    <path d="M534 134l4 9 9 4-9 4-4 9-4-9-9-4 9-4Z" fill="url(#star)"/>
+  </g>
+  <path d="M551 46l3 9 9 3-9 3-3 9-3-9-9-3 9-3Z" fill="#fda4af" fill-opacity=".75"/>
+  <path d="M405 238h9m-4.5-4.5v9M600 136h8m-4-4v8" stroke="#67e8f9" stroke-opacity=".5" stroke-linecap="round"/>
+  <path d="M464 231h59" stroke="#a78bfa" stroke-opacity=".2" stroke-linecap="round"/>
+</svg>

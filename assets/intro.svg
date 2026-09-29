@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="100" viewBox="0 0 900 100" role="img" aria-labelledby="title desc">
+  <title id="title">Ideas que se convierten en proyectos</title>
+  <desc id="desc">Una pequeña terminal animada alterna: código con intención; datos que cuentan algo; curiosidad en movimiento.</desc>
+  <style>
+    text{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+    .line{opacity:0;animation:line 15s infinite}.one{animation-delay:0s}.two{animation-delay:5s}.three{animation-delay:10s}
+    @keyframes line{0%,30%{opacity:1}33%,100%{opacity:0}}
+    .cursor{animation:blink 1.2s steps(2,end) infinite}@keyframes blink{50%{opacity:0}}
+    .dot{animation:pulse 3s ease-in-out infinite}@keyframes pulse{50%{opacity:.35}}
+    @media(prefers-reduced-motion:reduce){.line,.cursor,.dot{animation:none}.one{opacity:1}}
+  </style>
+  <rect x="1" y="1" width="898" height="98" rx="16" fill="#101727" stroke="#273349"/>
+  <circle cx="26" cy="25" r="4" fill="#fb7185"/><circle cx="41" cy="25" r="4" fill="#fbbf24"/><circle cx="56" cy="25" r="4" fill="#4ade80"/>
+  <text x="450" y="29" text-anchor="middle" font-size="12" fill="#a0aec0">juan@lima ~ laboratorio-personal</text>
+  <circle class="dot" cx="871" cy="25" r="4" fill="#67e8f9"/>
+  <text x="26" y="70" font-size="23" fill="#a78bfa">❯</text>
+  <g fill="#e5e7eb" font-size="21">
+    <text class="line one" x="57" y="70">Código con intención.</text>
+    <text class="line two" x="57" y="70">Datos que cuentan algo.</text>
+    <text class="line three" x="57" y="70">Curiosidad en movimiento.</text>
+  </g>
+  <rect class="cursor" x="835" y="53" width="10" height="20" rx="1" fill="#67e8f9"/>
+</svg>
