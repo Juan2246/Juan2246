@@ -147,4 +147,6 @@ juan:
 
 <br />
 
-<img src="./assets/footer.svg" width="100%" alt="Gracias. <img width="270" height="480" alt="ItsMeHelloGIF" src="https://github.com/user-attachments/assets/54ab59c2-ce4d-4cfe-b2c4-e35c10e3ef50" />" />
+
+
+<img src="./assets/footer.svg" width="100%" alt="Gracias.  />" />
