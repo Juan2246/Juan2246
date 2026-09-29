@@ -23,7 +23,6 @@ Guía de edición, imágenes y animaciones: PERSONALIZAR.md.
 
 <br />
 
-<p align="center"><img src="./assets/intro.svg" width="100%" alt="Código con intención. Datos que cuentan algo. Curiosidad en movimiento." /></p>
 
 ## Un poco de mí
 
