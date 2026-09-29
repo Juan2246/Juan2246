@@ -145,4 +145,4 @@ juan:
 
 
 
-<img src="./assets/footer.svg" width="100%" alt="Gracias.  />" />
+<img src="./assets/footer.svg" width="100%" alt="Gracias  />" />
