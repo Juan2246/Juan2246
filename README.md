@@ -42,11 +42,9 @@ juan:
     - Seguridad de la información
 ```
 
-  <summary><b>Hacia dónde apunto</b></summary>
+## Hacia adonde apunto
 
 <br />
-
-<!-- COMPLETAR: estas respuestas quedan desplegables para mantener la portada limpia. -->
 
 - **Mi enfoque actual:** Estar siempre al día con las últimas tecnologías. Me gusta testear nuevos modelos de IA, armar arquitecturas con agentes y, en general, aprender constantemente.
 - **Mi próxima meta:** Llevar mis habilidades de arquitectura e IA al siguiente nivel, construyendo un sistema que escale y resuelva un problema complejo en producción, con que aun me falta "la idea".
@@ -103,7 +101,7 @@ juan:
 
 ## Herramientas
 
-<sub>Tecnologías presentes en mis proyectos y formación.</sub>
+<sub>Algunas de las tecnologías que uso, presentes en mis proyectos y formación.</sub>
 
 ### Backend y datos
 
@@ -132,9 +130,6 @@ juan:
 
 <br />
 
-- **Algo que disfruto:** [COMPLETAR]
-- **Una recomendación mía:** [COMPLETAR: película, libro, juego o música]
-- **Un dato que no aparece en mi CV:** [COMPLETAR]
 
 </details>
 
@@ -142,7 +137,7 @@ juan:
 
 ---
 
-<h3 align="center">¿Tienes una idea? Conversemos.</h3>
+<h3 align="center">Conversemos.</h3>
 
 <p align="center">
   <a href="mailto:jstorres.xora@gmail.com">Correo</a> ·
@@ -152,4 +147,4 @@ juan:
 
 <br />
 
-<img src="./assets/footer.svg" width="100%" alt="Gracias por pasar por mi rincón de internet. Hecho con curiosidad, mejorado con cada proyecto." />
+<img src="./assets/footer.svg" width="100%" alt="Gracias. <img width="270" height="480" alt="ItsMeHelloGIF" src="https://github.com/user-attachments/assets/54ab59c2-ce4d-4cfe-b2c4-e35c10e3ef50" />" />
