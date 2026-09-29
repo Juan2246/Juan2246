@@ -1,0 +1,66 @@
+name: Actualizar animaciones del perfil
+
+on:
+  schedule:
+    # Una vez al día: 06:23 en Perú (11:23 UTC).
+    - cron: '23 11 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/contributions.yml'
+
+permissions: {}
+
+concurrency:
+  group: profile-contributions
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - name: Obtener el repositorio
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Crear las versiones clara y oscura
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/contributions-light.svg?palette=github-light&color_snake=#7c3aed&color_dots=#edf2f7,#a5f3fc,#67e8f9,#22d3ee,#0891b2
+            assets/contributions-dark.svg?palette=github-dark&color_snake=#a78bfa&color_dots=#172033,#164e63,#0e7490,#22d3ee,#67e8f9
+
+      - name: Crear Pac-Man con mis contribuciones
+        uses: abozanona/pacman-contribution-graph@7332e1de7903ab780c3692a4127a59cc13872daa
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          games: pacman
+
+      - name: Preparar las versiones de Pac-Man
+        shell: bash
+        run: |
+          cp dist/pacman-contribution-graph.svg assets/pacman-light.svg
+          cp dist/pacman-contribution-graph-dark.svg assets/pacman-dark.svg
+          rm -rf -- dist
+
+      - name: Guardar solo las animaciones actualizadas
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- assets/contributions-light.svg assets/contributions-dark.svg assets/pacman-light.svg assets/pacman-dark.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'chore: actualizar animación de contribuciones'
+          git pull --rebase origin "$DEFAULT_BRANCH"
+          git push origin "HEAD:$DEFAULT_BRANCH"
