@@ -49,7 +49,7 @@ juan:
 
 <!-- COMPLETAR: estas respuestas quedan desplegables para mantener la portada limpia. -->
 
-- **Mi enfoque actual::** Estar siempre al día con las últimas tecnologías. Me gusta testear nuevos modelos de IA, armar arquitecturas con agentes y, en general, aprender constantemente.
+- **Mi enfoque actual:** Estar siempre al día con las últimas tecnologías. Me gusta testear nuevos modelos de IA, armar arquitecturas con agentes y, en general, aprender constantemente.
 - **Mi próxima meta:** Llevar mis habilidades de arquitectura e IA al siguiente nivel, construyendo un sistema que escale y resuelva un problema complejo en producción, con que aun me falta "la idea".
 - **Me gustaría colaborar en:** Algún proyecto grande o de alto impacto. Siento que trabajar en equipo en algo importante te abre la mente, te da nuevas perspectivas y se aprende muchísimo viendo cómo piensan y resuelven problemas los demás.
 
@@ -102,7 +102,7 @@ juan:
 
 <br />
 
-## Mi caja de herramientas
+## Herramientas
 
 <sub>Tecnologías presentes en mis proyectos y formación.</sub>
 
@@ -116,40 +116,20 @@ juan:
 
 <br />
 
-**Otros temas que me interesan**<br />
-`IA aplicada` · `Análisis de datos` · `Seguridad de la información`
+
 
 <br />
 
-## Un commit a la vez
-
-Mi actividad de GitHub, convertida en una pequeña animación.
-
+## Actividad en Github
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/contributions-dark.svg" />
   <img src="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/contributions-light.svg" width="100%" alt="Una serpiente recorre el calendario de contribuciones de Juan2246" />
 </picture>
 
-<p align="center"><sub>Se actualiza cada día con las contribuciones de esta cuenta.</sub></p>
-
-<details>
-  <summary><b>🕹️ Abrir el modo arcade</b></summary>
-
-<br />
-
-El mismo calendario, otra forma de recorrerlo.
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/pacman-dark.svg" />
   <img src="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/pacman-light.svg" width="100%" alt="Animación de Pac-Man sobre las contribuciones de Juan2246" />
 </picture>
-
-</details>
-
-<br />
-
-<details>
-  <summary><b>☕ Cuando cierro el editor</b></summary>
 
 <br />
 
