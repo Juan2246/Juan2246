@@ -202,7 +202,8 @@ Algunas de las tecnologías que uso, presentes en mis proyectos y formación.
 <div align="center">
   <a href="mailto:jstorres.xora@gmail.com">Correo</a> ·
   <a href="https://www.linkedin.com/in/jstorressanchez/">LinkedIn</a>
-  <a                                  /a>
-  <a                                  /a>
 </div>
+</div>
+
+<br />
 <img src="./assets/footer.svg" width="100%" alt="¡Gracias! Por tomarse el tiempo de leer." />
