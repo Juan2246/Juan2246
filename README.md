@@ -204,4 +204,9 @@ Algunas de las tecnologías que uso, presentes en mis proyectos y formación.
   <a href="https://www.linkedin.com/in/jstorressanchez/">LinkedIn</a>
 </h2>
 
+
+
+
+
+
 <img src="./assets/footer.svg" width="100%" alt="¡Gracias! Por tomarse el tiempo de leer." />
