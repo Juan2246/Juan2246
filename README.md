@@ -1,8 +1,4 @@
-<!--
-MI PERFIL · JUAN TORRES
-Busca COMPLETAR para editar los espacios personales.
-Guía de edición, imágenes y animaciones: PERSONALIZAR.md.
--->
+
 
 <p align="center">
   <img src="./assets/studio-banner-rye.png" width="100%" alt="Juan Torres — Desarrollo, datos, seguridad e IA. Ilustración de un estudio frente a la costa de Lima al anochecer." />
