@@ -9,10 +9,11 @@ Guía de edición, imágenes y animaciones: PERSONALIZAR.md.
 </p>
 
 <h1 align="center">
-  <img src="./assets/icons/cat.gif" width="36" height="36" alt="" />
+  <img src="./assets/icons/cat.gif" width="30" height="30" alt="" />
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/hello-dark.svg" />
-    <img src="./assets/headings/hello-light.svg" height="36" alt="Hola, soy Juan Sebastián" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/hello-light.svg" />
+    <img src="./assets/headings/hello-light.svg" height="30" alt="Hola, soy Juan Sebastián" />
   </picture>
 </h1>
 
@@ -31,6 +32,7 @@ Guía de edición, imágenes y animaciones: PERSONALIZAR.md.
   <img src="./assets/icons/cat.gif" width="32" height="32" alt="" />
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/about-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/about-light.svg" />
     <img src="./assets/headings/about-light.svg" height="32" alt="Un poco de mí" />
   </picture>
 </h2>
@@ -55,6 +57,7 @@ juan:
   <img src="./assets/icons/target.gif" width="32" height="32" alt="" />
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/goals-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/goals-light.svg" />
     <img src="./assets/headings/goals-light.svg" height="32" alt="Hacia dónde apunto" />
   </picture>
 </h2>
@@ -67,6 +70,7 @@ juan:
   <img src="./assets/icons/build.gif" width="32" height="32" alt="" />
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/projects-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/projects-light.svg" />
     <img src="./assets/headings/projects-light.svg" height="32" alt="Cosas que he construido" />
   </picture>
 </h2>
@@ -77,10 +81,11 @@ Una selección de mis proyectos. Entra para ver el código y el contexto.
   <tr>
     <td width="50%" valign="top">
       <h3>
-        <img src="./assets/icons/build.gif" width="22" height="22" alt="" />
+        <img src="./assets/icons/build.gif" width="18" height="18" alt="" />
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/xora-dark.svg" />
-          <img src="./assets/headings/xora-light.svg" height="22" alt="XoraMarket" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/xora-light.svg" />
+          <img src="./assets/headings/xora-light.svg" height="18" alt="XoraMarket" />
         </picture>
       </h3>
       <p>Inventario, ventas y reportes para digitalizar la gestión de un negocio minorista.</p>
@@ -90,10 +95,11 @@ Una selección de mis proyectos. Entra para ver el código y el contexto.
     </td>
     <td width="50%" valign="top">
       <h3>
-        <img src="./assets/icons/build.gif" width="22" height="22" alt="" />
+        <img src="./assets/icons/build.gif" width="18" height="18" alt="" />
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/alquila-dark.svg" />
-          <img src="./assets/headings/alquila-light.svg" height="22" alt="Alquila Ya" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/alquila-light.svg" />
+          <img src="./assets/headings/alquila-light.svg" height="18" alt="Alquila Ya" />
         </picture>
       </h3>
       <p>API de alquiler de propiedades con autenticación, reservas y contratos.</p>
@@ -105,10 +111,11 @@ Una selección de mis proyectos. Entra para ver el código y el contexto.
   <tr>
     <td width="50%" valign="top">
       <h3>
-        <img src="./assets/icons/activity.gif" width="22" height="22" alt="" />
+        <img src="./assets/icons/activity.gif" width="18" height="18" alt="" />
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/data-dark.svg" />
-          <img src="./assets/headings/data-light.svg" height="22" alt="Data Science" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/data-light.svg" />
+          <img src="./assets/headings/data-light.svg" height="18" alt="Data Science" />
         </picture>
       </h3>
       <p>Notebook sobre herramientas de ciencia de datos y ejercicios de Python. Proyecto de IBM/Coursera.</p>
@@ -118,10 +125,11 @@ Una selección de mis proyectos. Entra para ver el código y el contexto.
     </td>
     <td width="50%" valign="top">
       <h3>
-        <img src="./assets/icons/cat.gif" width="22" height="22" alt="" />
+        <img src="./assets/icons/cat.gif" width="18" height="18" alt="" />
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/portfolio-dark.svg" />
-          <img src="./assets/headings/portfolio-light.svg" height="22" alt="Portafolio" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/portfolio-light.svg" />
+          <img src="./assets/headings/portfolio-light.svg" height="18" alt="Portafolio" />
         </picture>
       </h3>
       <p>Un espacio para reunir mis proyectos, formación y recorrido en tecnología.</p>
@@ -138,6 +146,7 @@ Una selección de mis proyectos. Entra para ver el código y el contexto.
   <img src="./assets/icons/tools.gif" width="32" height="32" alt="" />
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/tools-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/tools-light.svg" />
     <img src="./assets/headings/tools-light.svg" height="32" alt="Herramientas" />
   </picture>
 </h2>
@@ -148,6 +157,7 @@ Algunas de las tecnologías que uso, presentes en mis proyectos y formación.
   <img src="./assets/icons/tools.gif" width="26" height="26" alt="" />
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/backend-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/backend-light.svg" />
     <img src="./assets/headings/backend-light.svg" height="26" alt="Backend y datos" />
   </picture>
 </h3>
@@ -158,6 +168,7 @@ Algunas de las tecnologías que uso, presentes en mis proyectos y formación.
   <img src="./assets/icons/build.gif" width="26" height="26" alt="" />
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/frontend-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/frontend-light.svg" />
     <img src="./assets/headings/frontend-light.svg" height="26" alt="Frontend" />
   </picture>
 </h3>
@@ -168,6 +179,7 @@ Algunas de las tecnologías que uso, presentes en mis proyectos y formación.
   <img src="./assets/icons/activity.gif" width="32" height="32" alt="" />
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/activity-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/activity-light.svg" />
     <img src="./assets/headings/activity-light.svg" height="32" alt="Actividad en GitHub" />
   </picture>
 </h2>
@@ -188,6 +200,7 @@ Algunas de las tecnologías que uso, presentes en mis proyectos y formación.
   <img src="./assets/icons/chat.gif" width="32" height="32" alt="" />
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/contact-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/headings/contact-light.svg" />
     <img src="./assets/headings/contact-light.svg" height="32" alt="Conversemos." />
   </picture>
 </h2>
