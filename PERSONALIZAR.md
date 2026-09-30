@@ -4,7 +4,7 @@ La presentación pública está en [README.md](README.md). Para editarla desde G
 
 ## Completar tu información
 
-Busca **COMPLETAR** en el README. Dejé espacios para tu proyecto actual, aprendizaje, metas, colaboración, aportes a cada proyecto e intereses personales. Están en secciones desplegables: puedes rellenarlas a tu ritmo sin desarmar el diseño.
+Busca **COMPLETAR** en el README. Los aportes y aprendizajes de cada proyecto conservan espacios desplegables para rellenar. La presentación y la sección «Hacia dónde apunto» contienen tus propios textos.
 
 Tu nombre, formación, correo y herramientas parten de tu portafolio; el enlace de LinkedIn corresponde al perfil público de GitHub. Las descripciones de los proyectos parten de sus README. Actualiza estos datos cuando cambien.
 
@@ -13,15 +13,23 @@ Tu nombre, formación, correo y herramientas parten de tu portafolio; el enlace 
 | Archivo | Qué cambia |
 | --- | --- |
 | `README.md` | Presentación, enlaces, proyectos y datos personales. |
-| `assets/studio-banner.png` | Portada original del estudio frente a la costa. |
-| `assets/intro.svg` | Terminal con tres frases animadas. Edita el texto dentro de las etiquetas `text`. |
-| `assets/project-*.svg` | Portadas vectoriales animadas de los cuatro proyectos. |
-| `assets/contact-*.svg` | Aspecto de los botones. El destino de cada botón se cambia en el README. |
+| `assets/studio-banner-rye.png` | Portada actual del estudio, con letras ornamentales. La original se conserva en `studio-banner.png`. |
+| `assets/headings/` | Títulos con Caveat Brush, en versiones clara y oscura. |
+| `assets/icons/` | Pequeños GIF originales junto a los títulos. |
+| `assets/contact-*.svg` | Iconos de portafolio, LinkedIn y correo. El destino se cambia en el README. |
 | `assets/stack-*.svg` | Filas de iconos de tecnologías. |
-| `assets/footer.svg` | Cierre con estrellas y una pequeña órbita animada. |
+| `assets/footer.svg` | Postal crema y lavanda con «¡Gracias!» grande, en Rye. |
 | `.github/workflows/contributions.yml` | Generación automática de Snake y Pac-Man. |
 
-Todos los elementos visuales se sirven desde este repositorio. Las ilustraciones de proyectos son diagramas decorativos; no representan capturas reales ni métricas de uso.
+Todos los elementos visuales se sirven desde este repositorio. Los proyectos se presentan con texto y enlaces, sin ilustraciones de portada.
+
+## Tipografías y títulos
+
+GitHub no permite aplicar una fuente personalizada al texto normal del README. Por eso los títulos se dibujan como SVG con **Caveat Brush**, una alternativa manuscrita a Scratchy. El pie utiliza **Rye**, de estilo ornamental. Las letras están convertidas en trazos: no hace falta que el visitante tenga esas fuentes instaladas. Cada imagen conserva un texto alternativo legible por lectores de pantalla.
+
+La portada es una edición de imagen con un estilo parecido a Rye/Barnule, no una aplicación exacta del archivo de fuente. El resto del contenido sigue siendo texto normal, seleccionable y adaptable a la pantalla.
+
+Para cambiar un título, edita el diccionario `HEADINGS` de `scripts/build-typography.py` y ejecuta `python scripts/build-typography.py` con `fonttools` instalado. Los GIF se pueden regenerar con `python scripts/build-icons.py`, que requiere Pillow. Los archivos de fuente y sus licencias OFL están en `assets/fonts/`.
 
 ## Animaciones de contribuciones
 
@@ -33,7 +41,7 @@ Los cuatro SVG resultantes se guardan en `assets/`. Si un día la generación fa
 
 GitHub puede pausar los workflows programados de repositorios públicos después de 60 días sin actividad. En ese caso, vuelve a habilitar el workflow desde Actions.
 
-Las animaciones propias de la terminal, las tarjetas y el pie respetan la preferencia de movimiento reducido. Los gráficos de contribuciones los generan herramientas externas y pueden comportarse de otra manera. Pac-Man es una animación, no un juego interactivo dentro del README.
+El pie respeta la preferencia de movimiento reducido. Los GIF y los gráficos de contribuciones son animaciones en bucle. Pac-Man es una animación, no un juego interactivo dentro del README.
 
 ## Colores
 
@@ -47,7 +55,8 @@ Los SVG se pueden editar como texto sin instalar herramientas. Conserva las etiq
 ## Recursos y créditos
 
 - Portada creada para este perfil con la herramienta integrada de generación de imágenes. [Prompt de creación](assets/PORTADA.md).
-- Terminal, botones, tarjetas y pie: gráficos SVG originales de este perfil.
+- Iconos, GIF y pie: gráficos originales de este perfil.
+- [Caveat Brush](https://fonts.google.com/specimen/Caveat+Brush) y [Rye](https://fonts.google.com/specimen/Rye): tipografías de Google Fonts, con licencias SIL OFL conservadas en `assets/fonts/`.
 - [Skill Icons](https://github.com/tandpfun/skill-icons): iconos de tecnologías. [Licencia MIT conservada](assets/LICENSE-skill-icons.txt).
 - [Platane/snk](https://github.com/Platane/snk): Snake sobre las contribuciones.
 - [Arcade Contribution Graph](https://github.com/abozanona/pacman-contribution-graph): Pac-Man sobre las contribuciones.
