@@ -187,6 +187,10 @@ Algunas de las tecnologías que uso, presentes en mis proyectos y formación.
 </div>
 
 <br />
+<br />
+<br />
+
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/pacman-dark.svg" />
   <img src="https://raw.githubusercontent.com/Juan2246/Juan2246/main/assets/pacman-light.svg" width="100%" alt="Animación de Pac-Man sobre las contribuciones de Juan2246" />
